@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(221, 252, 252);
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: medium;
+    color: rgb(12, 12, 12);
+}
+h1 {
+    color: red;
+    border-bottom: 2px solid red;
+    font-size: 16px;
+}
+a {
+    color: rebeccapurple;
+}
+a:hover {
+    color: rgb(12, 12, 12);
+    background-color: rgb(241, 252, 181);
+}
+figcaption{
+    font-size: x-large;
+    color: tomato;
+}

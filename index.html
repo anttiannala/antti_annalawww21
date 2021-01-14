@@ -6,24 +6,30 @@
     <meta name="description" content="This is webpage that Antti Annala createt. Github. Hamk. ">
 
     <title>My First Webpage </title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <ul>
-        <li><a href="https://anttiannala.github.io/antti_annalawww21/index.html" target="_blank">Home</a></li>
-        <li><a href="https://anttiannala.github.io/antti_annalawww21/aboutus.html" target="_blank">About Us</a></li>
-        <li><a href="https://anttiannala.github.io/antti_annalawww21/projects.html" target="_blank">Projects</a></li>
+        <li><a href="https://anttiannala.github.io/antti_annalawww21/index.html" target="_blank"><b>Home</b></a></li>
+        <li><a href="https://anttiannala.github.io/antti_annalawww21/aboutus.html" target="_blank"><b>About Us</b> </a></li>
+        <li><a href="https://anttiannala.github.io/antti_annalawww21/projects.html" target="_blank"><b>Projects</b></a></li>
         </ul>
     <h1>This is my first page.</h1>
     <p>Some <i>random</i> text</p>
     <p>Another <i>random</i> sentence</p>
     <p>Some random links:
-    <a href="https://www.hamk.fi/hae-hamkiin/?gclid=Cj0KCQiA9P__BRC0ARIsAEZ6iriqCCdxdaCZA3V_Y_K07HIax72vhov30u5D0Lvxm6z4j4e9ps3W_3caAmQbEALw_wcB#tammikuun-haku" target="_blank">HAMK</a>
-    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-    </p>    
-    <img src="images/img.PNG" alt="" width="400" height="200">
+    <a href="https://www.hamk.fi/hae-hamkiin/?gclid=Cj0KCQiA9P__BRC0ARIsAEZ6iriqCCdxdaCZA3V_Y_K07HIax72vhov30u5D0Lvxm6z4j4e9ps3W_3caAmQbEALw_wcB#tammikuun-haku" target="_blank"><b>HAMK</b></a>
+    <a href="https://www.youtube.com/" target="_blank"><b>Youtube</b></a>
+    </p>
+    <figure>
+        <figcaption>Random image</figcaption>
+        <img src="images/img.PNG" alt="Random image" width="400" height="200">
+    </figure>    
+    
     <article>
-        <h1>Some random article element</h1>
         <img src="images/img.PNG" alt="" width="200" height="100" style="float:right;">
+        <h1>Some random article element</h1>
+        
         <article>
         <p>Some random text again</p>
         
@@ -31,6 +37,17 @@
         
     </article>
     </article>
+    <h2>How can you type the latin characters such as ä, ö etc in your html Document?</h2>
+        <p>äöå, if my charset is not UFT-8 etc, then i have to use the decimal (dec) or hexadecimal (hex) reference. example: <pre><code>&lt;p&gt;I will display &#x 00E4;&lt;/p&gt;</code></pre>(without that blank space between x and 0)</p>
+        <p>I will display &#x00E4</p>
+    
+    <h2>Differences between HTML & HTMl5</h2>
+    <p>Html5 is better in every aspect. Video/audio support, graphics, compability to different browsers, mobile friendly and etc.</p>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_&index=1&ab_channel=FreeHDvideos-nocopyright">
+    </iframe>
+    
+    
     <address>HAMK PL 230 13101 Hämeenlinna</address>
 </body>
 </html>
