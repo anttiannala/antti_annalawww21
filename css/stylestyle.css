@@ -1,0 +1,7 @@
+table, tr, td{
+    border: rgb(3, 83, 36) 3px solid;
+}
+th{
+    border: black 2px solid;
+    background-color: cadetblue;
+}
